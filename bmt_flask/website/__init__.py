@@ -20,11 +20,11 @@ app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(minutes=9)
 app.config["JWT_REFRESH_TOKEN_EXPIRES"] = timedelta(minutes=10)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = "arjunvaghasiya361@gmail.com"
-app.config['MAIL_PASSWORD'] = "jupxfdgokubxbpgm"
+app.config['MAIL_USERNAME'] = "======"
+app.config['MAIL_PASSWORD'] = "====="
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
-app.config['FROM_EMAIL'] = "arjunvaghasiya361@gmail.com"
+app.config['FROM_EMAIL'] = "====="
 
 
 migrate = Migrate(app,db)
